@@ -1,3 +1,12 @@
+loadScript("https://cdn.tailwindcss.com", function () {
+  console.log("Tailwind CSS loaded");
+});
+loadScript(
+  "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js",
+  function () {
+    console.log("Font Awesome loaded");
+  }
+);
 function loadScript(src, callback) {
   const script = document.createElement("script");
   script.src = src;
