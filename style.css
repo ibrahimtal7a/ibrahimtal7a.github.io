@@ -137,6 +137,7 @@
   position: relative;
   overflow: hidden;
   width: 100%;
+  padding: 0 20px;
 }
 
 .slider {
@@ -146,11 +147,10 @@
 
 .badge {
   min-width: 150px;
-  margin-right: 60px;
+  margin-right: 10px;
 }
 
-.prev,
-.next {
+.prev, .next {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
