@@ -169,3 +169,7 @@
 .next {
   right: 0;
 }
+.red{
+  color: #f00;
+  font-size: x-small;
+}
