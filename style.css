@@ -14,9 +14,7 @@
   animation: fadeIn 0.5s ease-out forwards;
   opacity: 0;
 }
-b{
-  color: #3b82f6;
-}
+
 .profile-photo {
   width: 150px;
   height: 150px;
@@ -93,17 +91,19 @@ b{
   color: #3b82f6;
   transition: color 0.3s ease;
   font-size: 2rem;
-  margin-bottom: 0.5rem;
 }
 
 .contact-icon:hover {
   color: #2563eb;
 }
+b{
+  color: #3b82f6;
 
+}
 .contact-label {
   margin-top: 5px;
   color: #4b5563;
-  font-size: 1rem;
+  font-size: 13px;
   font-weight: bold;
 }
 
