@@ -39,11 +39,6 @@
   transform: translateY(0);
 }
 
-.section-offset {
-  padding-top: 85px;
-  margin-top: -85px;
-}
-
 .timeline-container {
   position: relative;
   padding-left: 30px;
@@ -90,32 +85,16 @@
 .contact-icon {
   color: #3b82f6;
   transition: color 0.3s ease;
-  font-size: 2rem;
+  font-size: 20px;
+  align-items: start;
+  display: inline;
 }
 
 .contact-icon:hover {
   color: #2563eb;
 }
-b{
+b {
   color: #3b82f6;
-
-}
-.contact-label {
-  margin-top: 5px;
-  color: #4b5563;
-  font-size: 13px;
-  font-weight: bold;
-}
-
-.contact-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin: 10px;
-  text-align: center;
-  text-decoration: none;
-  color: inherit;
 }
 
 .contact-item:hover {
@@ -152,7 +131,8 @@ b{
   margin-right: 10px;
 }
 
-.prev, .next {
+.prev,
+.next {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -171,7 +151,7 @@ b{
 .next {
   right: 0;
 }
-.red{
+.red {
   color: #f00;
   font-size: x-small;
 }
